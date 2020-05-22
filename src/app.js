@@ -30,4 +30,3 @@ app.use('/',(req,res)=>{
 app.listen(app.get('port'),()=>{
     console.log("Server iniciado en el puerto",app.get('port'));
 });
-

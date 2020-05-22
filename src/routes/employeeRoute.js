@@ -8,6 +8,8 @@ router.get('/save',(req,res)=>{
     res.json({status:'Employeed Saved'});
 });
 
+router.get('testdata',EmployeeController.testData);
+router.get('list', EmployeeController.list);
 
 
 module.exports = router;
